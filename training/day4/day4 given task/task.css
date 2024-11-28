@@ -1,0 +1,79 @@
+
+
+body {
+    margin: 0;
+    background: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.corner {
+    position: absolute;
+    width: 250px;
+    height: 140px;
+}
+
+.red {
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+.green {
+    top: 0;
+    right: 0;
+    background-color: green;
+}
+
+.blue {
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+}
+
+.yellow {
+    bottom: 0;
+    right: 0;
+    background-color: yellow;
+}
+
+.small-box {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: inherit;
+}
+
+.red .small-box {
+    bottom: -50px;
+    right: -100px;
+    background-color: red;
+}
+
+.green .small-box {
+    top: 140px;
+    left: -100px;
+    background-color: green;
+}
+
+.blue .small-box {
+    top: -50px;
+    right: -100px;
+    background-color: blue;
+}
+
+.yellow .small-box {
+    top: -50px;;
+    left: -100px;
+    background-color: yellow;
+}
+
+.center {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(165, 22, 167);
+    
+}
