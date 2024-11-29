@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(200, 196, 182);
+}
+.container{
+    background-color: rgb(200, 196, 182);;
+    height: 700px;
+    position: relative;
+
+
+}
+h3{
+    padding-left: 30px;
+    font-family: fantasy;
+    font-size: 250%;
+    background-color: rgb(200, 196, 182);;
+}
+.hero{
+    display: flex;
+    flex-shrink: 0;
+}
+.one{
+ 
+    width: 60%;
+    height: 610px;
+    background-color: rgb(201, 203, 205);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px;
+}
+ 
+    
+    
+
+.title{
+    font-size: 550%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+}
+.para{
+    font-size: 500%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+
+}
+.content{
+    font-size: x-large;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+button{
+    margin-top: 90px;
+    margin-left: 40px;
+    height: 60px;
+    width: 300px;
+    font-size: x-large;
+    border-radius: 10px;
+    border: none;
+}
+.image1{
+    margin-left: 60px;
+    width: 30%;
+    height: 85%;
+    border-radius: 15px;
+    position: absolute;
+    transform: rotate(30deg);
+    z-index: 1;
+    bottom: -10px;
+     
+}
+.image2{
+    margin-left: 0px;
+    width: 30%;
+    height: 85%;
+    border-radius: 15px;
+    position: absolute;
+    left: 63%;
+    bottom: 20px;
+     transform: rotate(-30deg);
+     z-index: 2;
+    
+
+}
+.image3{
+    position: absolute;
+    width: 25%;
+    height: 88%;
+    border-radius: 15px;
+    z-index: 3;
+    right: 10%;
+    transform: rotate(4deg);
+}
