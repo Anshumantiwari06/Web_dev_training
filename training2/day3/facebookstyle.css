@@ -1,0 +1,41 @@
+button{
+    color: azure;
+    width: 70%;
+    border-radius:5px;
+    height: 45px;
+    border: none;
+    font-size: 120%;
+}
+.Email{
+    height: 60px;
+    width: 350px;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.Password{
+    height: 60px;
+    width: 350px;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Box{
+    width: 500px;           
+    height: 320px;          
+    background-color: white;  
+    border: none;      
+    padding: 20px;           
+    margin-left: 10px;           
+    box-sizing: content-box;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px ;
+    
+}
+.Title{
+    font-size: 350%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f4f7;
+}

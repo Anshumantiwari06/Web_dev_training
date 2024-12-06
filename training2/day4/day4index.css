@@ -1,0 +1,90 @@
+/* .title{
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    
+
+}
+body{
+    background-color: rgb(106, 101, 101);
+}
+.und{
+    color: rgb(250, 250, 250);
+}
+#welcome{
+    background-color: blueviolet;
+}
+.heading{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.box{
+    height: 600px;
+    width: 500px;
+    background-color: black;
+}
+.subbox{
+    height: 400px;
+    width: 300px;
+    background-color: blanchedalmond;
+    padding: 60px;
+    border: 6px solid green;
+    margin-top: 20px;
+
+
+} */
+body{
+    background-color: rgb(0, 251, 255);
+}
+ 
+ .container{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+ }
+ .box{
+    height: 150px;
+    width: 160px;
+    border:  4px solid rgb(6, 5, 5);
+ }
+ #one{
+    
+    border: solid black;
+    position: absolute;
+    top: 65px;
+    right: 1100px;
+    z-index: 2;
+ }
+ #two{
+    
+    border: solid black;
+    position: absolute;
+    top: 280px;
+    right: 1100px;
+    z-index: 2;
+ }
+ #three{
+    
+    border: solid black;
+    position: absolute;
+    left: 870px;
+    top: 65px;
+    position: fixed;
+    z-index: 2;
+ }
+ #four{
+    
+    border: solid black;
+    position: absolute;
+    top: 280px;
+    left: 870px;
+    z-index: 2;
+ }
+ #five{
+    
+    border: solid black;
+    position: absolute;
+    top: 170px;
+    left: 750px;
+    
+ }
